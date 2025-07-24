@@ -58,15 +58,15 @@
 
 <link name="front_left_wheel">
   <visual>
-    <origin xyz="-0.0358 -0.023 -0.034" rpy="1.5709 0 1.5709"/>
+    <origin xyz="-0.0358 0.0172 -0.034" rpy="1.5709 0 1.5709"/>
     <geometry>
-      <mesh filename="package://my_bot/meshes/tyre.STL" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://my_bot/meshes/tyre.STL" scale="-0.001 0.001 0.001"/>
     </geometry>
   </visual>
   <collision>
-    <origin xyz="-0.0358 -0.023 -0.034" rpy="1.5709 0 1.5709"/>
+    <origin xyz="-0.0358 0.0172 -0.034" rpy="1.5709 0 1.5709"/>
     <geometry>
-      <mesh filename="package://my_bot/meshes/tyre.STL" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://my_bot/meshes/tyre.STL" scale="-0.001 0.001 0.001"/>
     </geometry>
     <surface>
       <friction>
@@ -193,15 +193,15 @@
 
 <link name="rear_right_wheel">
   <visual>
-    <origin xyz="-0.0358 0.023 -0.034" rpy="0 0 -1.5709"/>
+    <origin xyz="-0.0358 -0.0172 -0.034" rpy="0 0 -1.5709"/>
     <geometry>
-      <mesh filename="package://my_bot/meshes/tyre.STL" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://my_bot/meshes/tyre.STL" scale="-0.001 0.001 0.001"/>
     </geometry>
   </visual>
   <collision>
-    <origin xyz="-0.0358 0.023 -0.034" rpy="0 0 -1.5709"/>
+    <origin xyz="-0.0358 -0.0172 -0.034" rpy="0 0 -1.5709"/>
     <geometry>
-      <mesh filename="package://my_bot/meshes/tyre.STL" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://my_bot/meshes/tyre.STL" scale="-0.001 0.001 0.001"/>
     </geometry>
     <surface>
       <friction>
